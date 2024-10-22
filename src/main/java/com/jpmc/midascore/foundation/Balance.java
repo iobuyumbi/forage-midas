@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Balance {
     private float amount;
 
-    public Balance() {
+    public Balance(Long id, float balance) {
     }
 
     public Balance(float amount) {
